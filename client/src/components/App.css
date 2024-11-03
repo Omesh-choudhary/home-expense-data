@@ -1,0 +1,17 @@
+button{
+    background-color: rgb(189, 18, 18);
+    border-radius: 15%;
+    outline: none;
+    padding: 2px 10px;
+    text-align: center;
+}
+
+.main{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.profile{
+    background-image: url("../images/profile.jpg");
+    background-size: cover;
+}
