@@ -38,7 +38,7 @@ export const AuthProvider =({children})=>{
     const UserData =async()=>{
       let token = localStorage.getItem("token")
       
-      let response = await fetch ("http://localhost:5000/api/send/userData",{
+      let response = await fetch ("https://home-expense-data-backend.onrender.com/api/send/userData",{
         method:"GET",
         headers:{
           "Authorization":`Bearer ${token}`
