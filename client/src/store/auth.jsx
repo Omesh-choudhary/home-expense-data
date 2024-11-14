@@ -19,7 +19,7 @@ export const AuthProvider =({children})=>{
     }
 
     const userAuthentication =async()=>{
-        const response = await fetch("http://localhost:5000/api/auth/user",{
+        const response = await fetch("https://home-expense-data-backend.onrender.com/api/auth/user",{
             method:"GET",
             headers:{
                 "Authorization":`Bearer ${Token}`
